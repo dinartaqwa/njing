@@ -1,1 +1,1 @@
-/data/data/com.termux/files/usr/lib/
+/data/data/com.termux/files/usr/lib
